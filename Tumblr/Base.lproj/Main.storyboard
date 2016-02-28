@@ -29,7 +29,7 @@
                                 <rect key="frame" x="254" y="20" width="66" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="dsW-Hn-RuS" kind="modal" id="RKz-JI-Apq"/>
+                                    <segue destination="dsW-Hn-RuS" kind="modal" modalTransitionStyle="crossDissolve" id="RKz-JI-Apq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -170,6 +170,13 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="video_icon"/>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0Et-sl-UEu">
+                                        <rect key="frame" x="0.0" y="510" width="320" height="58"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="nevermindDidTap:" destination="TgW-RT-Vsl" eventType="touchUpInside" id="tw0-Wl-Tqw"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.19270051245675729" green="0.23964847154993635" blue="0.33218836618416991" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
@@ -278,7 +285,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="compose_button"/>
                                         <connections>
-                                            <segue destination="TgW-RT-Vsl" kind="modal" id="pDr-AL-48e"/>
+                                            <segue destination="TgW-RT-Vsl" kind="modal" modalTransitionStyle="crossDissolve" id="pDr-AL-48e"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="UVV-4i-Mxz" userLabel="Account">
@@ -318,20 +325,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18" y="2107"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="VW3-oA-rDJ">
-            <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="rcq-b8-wbl" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="qHR-zl-L1O">
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Tya-oE-wsF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="18" y="1090"/>
         </scene>
     </scenes>
     <resources>
