@@ -10,6 +10,23 @@ import UIKit
 
 class ComposeViewController: UIViewController {
 
+    @IBOutlet weak var textButton: UIButton!
+    @IBOutlet weak var photoButton: UIButton!
+    @IBOutlet weak var quoteButton: UIButton!
+    @IBOutlet weak var linkButton: UIButton!
+    @IBOutlet weak var chatButton: UIButton!
+    @IBOutlet weak var videoButton: UIButton!
+    
+    
+    var textButtonOriginalCenter: CGPoint!
+    var photoButtonOriginalCenter: CGPoint!
+    var quoteButtonOriginalCenter: CGPoint!
+    var linkButtonOriginalCenter: CGPoint!
+    var chatButtonOriginalCenter: CGPoint!
+    var videoButtonOriginalCenter: CGPoint!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,6 +36,12 @@ class ComposeViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    
+    
+    override func viewWillAppear(animated: Bool) {
+        textButton.center = CGPoint(x: <#T##CGFloat#>, y: <#T##CGFloat#>)
     }
     
 
