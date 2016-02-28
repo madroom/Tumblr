@@ -8,8 +8,8 @@ Time spent: 8 hours spent in total
 ## User Stories
 
 The following **required** functionality is complete:
-* [✓ ] Tapping on Home, Search, Account, or Trending should show the respective screen and highlight the tab bar button.
-* [✓ ] Compose button should modally present the compose screen.
+* [✓] Tapping on Home, Search, Account, or Trending should show the respective screen and highlight the tab bar button.
+* [✓] Compose button should modally present the compose screen.
 
 The following **optional** features are implemented:
 * [ ] Compose screen is faded in while the buttons animate in.
@@ -20,6 +20,7 @@ The following **optional** features are implemented:
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
+
 ![demo gif] (tumblr.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
